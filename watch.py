@@ -102,13 +102,13 @@ def main():
                f"Watching {len(current)} NeeDoh products across 3 shops every 15 minutes. "
                f"{in_stock_now} in stock right now. You'll get a ping with the link when one comes back.")
     elif restocked:
-        for item in restocked[:5]:
-            notify(f"NeeDoh back in stock at {item['shop']}",
-                   f"{item['title']} - £{item['price']}. Tap to buy.", click=item["url"])
-        if len(restocked) > 5:
-            notify("More NeeDoh back in stock",
-                   f"{len(restocked) - 5} more NeeDoh products are back in stock.",
-                   click=restocked[5]["url"])
+        # one email per check, listing everything that came back, each with its buy link
+        lines = [f"{i['title']} - £{i['price']} at {i['shop']}\n{i['url']}" for i in restocked[:15]]
+        if len(restocked) > 15:
+            lines.append(f"...and {len(restocked) - 15} more.")
+        title = (f"NeeDoh back in stock: {restocked[0]['title']}" if len(restocked) == 1
+                 else f"{len(restocked)} NeeDoh products back in stock")
+        notify(title, "\n\n".join(lines), click=restocked[0]["url"])
 
     # month stamp keeps the repo active so GitHub never pauses the schedule
     state = {"month": datetime.now(timezone.utc).strftime("%Y-%m"), "products": current}
