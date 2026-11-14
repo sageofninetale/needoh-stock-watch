@@ -58,20 +58,44 @@ def shop_products(shop):
     return items
 
 
+def send_email(title, message):
+    """Email the alert through an SMTP account (e.g. Gmail with an app password)."""
+    import smtplib
+    from email.message import EmailMessage
+    user, password, to = (os.environ.get(k) for k in ("SMTP_USER", "SMTP_PASS", "ALERT_EMAIL"))
+    if not (user and password and to):
+        return False
+    msg = EmailMessage()
+    msg["Subject"], msg["From"], msg["To"] = title, user, to
+    msg.set_content(message + "\n\n(Automatic NeeDoh stock alert, checked every 15 minutes.)")
+    host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
+    with smtplib.SMTP(host, 587, timeout=30) as s:
+        s.starttls()
+        s.login(user, password)
+        s.send_message(msg)
+    return True
+
+
 def notify(title, message, click=None):
+    sent = False
+    try:
+        sent = send_email(title, message)
+    except Exception as e:
+        print(f"Email failed: {e}", file=sys.stderr)
     topic = os.environ.get("NTFY_TOPIC")
-    if not topic:
-        print("NTFY_TOPIC not set, would send:", title, "|", message)
-        return
-    headers = {"Title": title, "Tags": "teddy_bear", "Priority": "high"}
-    if click:
-        headers["Click"] = click
-    email = os.environ.get("ALERT_EMAIL")
-    if email:
-        headers["Email"] = email
-    req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=message.encode("utf-8"),
-                                 headers=headers, method="POST")
-    urllib.request.urlopen(req, timeout=30).read()
+    if topic:
+        headers = {"Title": title, "Tags": "teddy_bear", "Priority": "high"}
+        if click:
+            headers["Click"] = click
+        req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=message.encode("utf-8"),
+                                     headers=headers, method="POST")
+        try:
+            urllib.request.urlopen(req, timeout=30).read()
+            sent = True
+        except Exception as e:
+            print(f"Push failed: {e}", file=sys.stderr)
+    if not sent:
+        print("No alert channel worked, would send:", title, "|", message)
 
 
 def main():
