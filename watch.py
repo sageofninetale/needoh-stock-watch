@@ -121,7 +121,13 @@ def main():
     in_stock_now = sum(v["available"] for v in current.values())
     print(f"Checked {len(current)} NeeDoh products, {in_stock_now} in stock, {len(restocked)} newly in stock")
 
-    if first_run:
+    if os.environ.get("TEST_ALERT") == "true":
+        notify("NeeDoh alerts are on",
+               f"Hi Arun, NeeDoh stock alerts are now set up. The Kid Collective, Bigjigs and My Small World "
+               f"are checked every 15 minutes, and you'll get an email like this with the product, price and "
+               f"buy link as soon as any NeeDoh comes back in stock. {in_stock_now} of {len(current)} NeeDoh "
+               f"products are in stock right now.")
+    elif first_run:
         notify("NeeDoh alerts are on",
                f"Watching {len(current)} NeeDoh products across 3 shops every 15 minutes. "
                f"{in_stock_now} in stock right now. You'll get a ping with the link when one comes back.")
