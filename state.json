@@ -1,0 +1,782 @@
+{
+ "month": "2026-11",
+ "products": {
+  "Bigjigs|10274304196911": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Dream Drop Dreamy Smooth Squeeze Raindrop Squishy Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/dream-drop-needoh"
+  },
+  "Bigjigs|14894378975605": {
+   "available": false,
+   "price": "4.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Fuzzball Flower Power Velvet Squeeze Groovy Sensory Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-fuzz-ball-flower-power"
+  },
+  "Bigjigs|14894379073909": {
+   "available": false,
+   "price": "4.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Mello Mallo Classic Groovy Soft Pastel Marshmellow Squishy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-mello-mallo"
+  },
+  "Bigjigs|14894379204981": {
+   "available": false,
+   "price": "12.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Niceberg Super Solid Squish Large Ice Cube Shaped Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-niceberg"
+  },
+  "Bigjigs|14894379237749": {
+   "available": false,
+   "price": "5.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Sploot Splat Super Solid Squish Stretchy Sensory Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-sploot-splat"
+  },
+  "Bigjigs|14894379532661": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Nice Cube Swirl Super Solid Squish Stress Relieving Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-nice-cube-swirl"
+  },
+  "Bigjigs|14894379598197": {
+   "available": false,
+   "price": "7.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Teenie Singles Classic Groovy Assorted Colour Stress Ball 4 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-teenie-singles-assortment"
+  },
+  "Bigjigs|14894379630965": {
+   "available": false,
+   "price": "4.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Fuzzball Wonder Waves Velvet Squeeze Soft-Cloud Sensory Squishy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-fuzz-ball-wonder-waves"
+  },
+  "Bigjigs|14963359744373": {
+   "available": false,
+   "price": "5.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Lava Squish N Flow Classic Groovy Lamp Shaped Squishy Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/lava-squish-n-flow"
+  },
+  "Bigjigs|15115900977525": {
+   "available": false,
+   "price": "4.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Fuzzball Velvet Squeeze Soft-Cloud Stress Relief Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-fuzz-ball"
+  },
+  "Bigjigs|15183881011573": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Nice Cube Glow Super Solid Squish Glow in the Dark Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-nice-cube-glow-in-the-dark"
+  },
+  "Bigjigs|15183881109877": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Nice Cube Glitter & Glow Super Solid Squish Sparkly Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-glitter-glow-nice-cube"
+  },
+  "Bigjigs|15689538994549": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Jelly Hops Super Solid Squish Scented Sparkly Bunny Squishy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-jelly-hops-syjhnd26"
+  },
+  "Bigjigs|15705068077429": {
+   "available": false,
+   "price": "13.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Niceberg Glitter & Glow Super Solid Squish Large Cube Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/niceberg-glitter-glow-needoh-syggsncbnd"
+  },
+  "Bigjigs|15705759908213": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Jelly-Squish Super Solid Squish Jellyfish Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/jelly-squish-needoh-rtsyjsnd"
+  },
+  "Bigjigs|15705760629109": {
+   "available": false,
+   "price": "13.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Niceberg Swirl Super Solid Squish Large Cube Sensory Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/niceberg-swirl-needoh-syswsncbnd"
+  },
+  "Bigjigs|15723248845173": {
+   "available": false,
+   "price": "8.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Fuzzball Teenie Velvet Squeeze Soft-Cloud Squishy Stress Ball 4 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/fuzz-ball-teenie-needoh-multipack-sympfzbnd"
+  },
+  "Bigjigs|15723249533301": {
+   "available": false,
+   "price": "14.99",
+   "shop": "Bigjigs",
+   "title": "Super NeeDoh Fuzz Ball - Giant Fuzzy Stress Ball, Sensory Toys for Kids, Fidgets",
+   "url": "https://www.bigjigstoys.co.uk/products/super-needoh-fuzz-ball-sysfzbnd"
+  },
+  "Bigjigs|15723262738805": {
+   "available": false,
+   "price": "8.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Cool Cats Teenie Velvet Squeeze Mini Cat Fidget Toy 4 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/cool-cats-teenie-needoh-multi-pack-sympcctnd"
+  },
+  "Bigjigs|15723271061877": {
+   "available": false,
+   "price": "8.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Teenie Swirl Multipack - Mini Stress Ball Toys, Kids' Sensory Toy Packs",
+   "url": "https://www.bigjigstoys.co.uk/products/swirl-teenie-needoh-multipack-symptswnd"
+  },
+  "Bigjigs|15723273290101": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Teenie Fuzz Ball - Mini Fuzzy Stress Balls for Kids, Squishy Sensory Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/teenie-needoh-fuzz-ball-syfzbtnd"
+  },
+  "Bigjigs|15723341382005": {
+   "available": false,
+   "price": "8.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Hot Shots Teenie Classic Groovy Sports Ball Fidget Toy 4 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/hot-shots-teenie-needoh-multi-pack-syhstnd"
+  },
+  "Bigjigs|15723342070133": {
+   "available": false,
+   "price": "8.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Nice Ice Baby Teenie Super Solid Squish Mini Cube Fidget Toy 4 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/nice-ice-baby-teenie-needoh-multi-pack-symptncbnd"
+  },
+  "Bigjigs|15723342102901": {
+   "available": false,
+   "price": "4.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Color Change Cube - Colour Changing Fidget Toy for Kids Sensory Play",
+   "url": "https://www.bigjigstoys.co.uk/products/color-change-cube-syccbnd"
+  },
+  "Bigjigs|15836280881525": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Nice-sicle Squishy Fidget Toy for Kids",
+   "url": "https://www.bigjigstoys.co.uk/products/nice-icle-needoh-synind"
+  },
+  "Bigjigs|15836286878069": {
+   "available": false,
+   "price": "5.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Nice Cream Squishy Fidget Toy for Kids",
+   "url": "https://www.bigjigstoys.co.uk/products/nice-cream-cone-needoh-synccnd"
+  },
+  "Bigjigs|15836290580853": {
+   "available": false,
+   "price": "5.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Peace O' Cake Stress Relieving Sensory Squishy Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/peace-o-cake-needoh-sypocnd"
+  },
+  "Bigjigs|15865064194421": {
+   "available": false,
+   "price": "4.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Fuzz Ball Wild Cats Velvet Squeeze Soft-Cloud Squishy Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-fuzz-ball-wild-cats-sywcfzbnd"
+  },
+  "Bigjigs|15865068388725": {
+   "available": false,
+   "price": "7.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Knittens- Soft Cloud Squish Cat Sensory Toy, Festive Fidget Toys for Kids",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-knittens-sysqmknnd26"
+  },
+  "Bigjigs|15865077956981": {
+   "available": false,
+   "price": "29.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Advent Calendar Mini Christmas Squishy Fidget Toy 24 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-advent-calendar-sysqmac26"
+  },
+  "Bigjigs|15876061757813": {
+   "available": false,
+   "price": "7.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Polar Glow Penguin Super-Solid Squishy Toy, Kids' Christmas Fidget Toys",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-polar-glow-penguins-sysqmpnd26"
+  },
+  "Bigjigs|15925161460085": {
+   "available": false,
+   "price": "4.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Squeezza - Pizza Squishy with Cheese, Sensory Fidget Toys for Kids",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-squeezza-sysqznd"
+  },
+  "Bigjigs|15978024305013": {
+   "available": false,
+   "price": "7.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Squisher the Reindoh - Squishy Reindeer Christmas Fidget Toy for Kids",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-squisher-the-reindoh-sysqmsrnd26"
+  },
+  "Bigjigs|15986101682549": {
+   "available": false,
+   "price": "8.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Glow In The Dark Teenie Multipack- Classic Groovy Glob Stress Ball 4 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/glow-in-the-dark-teenie-needoh-multipack-symptgnd"
+  },
+  "Bigjigs|15986101715317": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Tuff Nugget- Super Solid Squish Rock Shaped Sensory Toy for Stress Relief",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-tuff-nugget-sytfnd"
+  },
+  "Bigjigs|6996426981410": {
+   "available": false,
+   "price": "3.49",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Color Changing Classic Groovy Glob Round Squishy Stress Ball",
+   "url": "https://www.bigjigstoys.co.uk/products/color-changing-nee-doh"
+  },
+  "Bigjigs|6996427538466": {
+   "available": false,
+   "price": "3.49",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Classic Groovy Glob Original Sensory Toy Stress Ball",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh"
+  },
+  "Bigjigs|6996427898914": {
+   "available": false,
+   "price": "3.49",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Snow Ball Crunch Crunchy Feel Winter Themed Stress Ball",
+   "url": "https://www.bigjigstoys.co.uk/products/snow-ball-crunch"
+  },
+  "Bigjigs|6996428161058": {
+   "available": false,
+   "price": "2.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Teenie Classic Groovy Mini Squishy Stress Relief Fidget Toy 3 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/teenie-nee-doh"
+  },
+  "Bigjigs|8071517602095": {
+   "available": false,
+   "price": "6.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Nice Cube Super Solid Squish Stress Relieving Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-nice-cube"
+  },
+  "Bigjigs|8314933477679": {
+   "available": false,
+   "price": "3.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Glow in the Dark Assorted Classic Groovy Glob Squishy Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/glow-in-the-dark-needoh-assorted-colours"
+  },
+  "Bigjigs|8717535379759": {
+   "available": false,
+   "price": "5.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Gumdrop Super Solid Squish Sweet Themed Hard Squeeze Fidget Toy",
+   "url": "https://www.bigjigstoys.co.uk/products/needoh-gumdrop"
+  },
+  "Bigjigs|8717536952623": {
+   "available": false,
+   "price": "5.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Teenie Cool Cats Classic Groovy Kitten Shaped Squishy 3 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/teenie-needoh-cool-cats"
+  },
+  "Bigjigs|8717539082543": {
+   "available": false,
+   "price": "5.99",
+   "shop": "Bigjigs",
+   "title": "NeeDoh Teenie Funky Pups Velvet Squeeze Mini Dog Squishy 3 Pack",
+   "url": "https://www.bigjigstoys.co.uk/products/teenie-needoh-funky-pups"
+  },
+  "My Small World|14635865473400": {
+   "available": false,
+   "price": "4.50",
+   "shop": "My Small World",
+   "title": "Needoh Glow In The Dark",
+   "url": "https://www.mysmallworld.co.uk/products/glow-in-the-dark-needoh"
+  },
+  "My Small World|14890241065336": {
+   "available": false,
+   "price": "5.50",
+   "shop": "My Small World",
+   "title": "Needoh Fuzz Ball Flower Power",
+   "url": "https://www.mysmallworld.co.uk/products/fuzz-ball-flower-power-needoh"
+  },
+  "My Small World|14945720369528": {
+   "available": false,
+   "price": "3.00",
+   "shop": "My Small World",
+   "title": "Needoh Teenie Singles Nice Ice Baby",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-teenie-singles-nice-ice-baby"
+  },
+  "My Small World|14945721614712": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh Nice Cube Glow",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-nice-cube-glow"
+  },
+  "My Small World|14955778933112": {
+   "available": false,
+   "price": "14.50",
+   "shop": "My Small World",
+   "title": "Needoh Niceberg",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-niceberg"
+  },
+  "My Small World|14955781161336": {
+   "available": false,
+   "price": "6.50",
+   "shop": "My Small World",
+   "title": "Needoh Sploot Splat",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-sploot-splat"
+  },
+  "My Small World|14955782963576": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh Nice Cube Swirl",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-nice-cube-swirl"
+  },
+  "My Small World|14955901616504": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh Glitter & Glow Nice Cube",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-glitter-glow-nice-cube"
+  },
+  "My Small World|15001611960696": {
+   "available": false,
+   "price": "4.00",
+   "shop": "My Small World",
+   "title": "Needoh Colour Changing",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-colour-changing"
+  },
+  "My Small World|15001614156152": {
+   "available": false,
+   "price": "2.00",
+   "shop": "My Small World",
+   "title": "Needoh Teenie Singles",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-teenie-singles"
+  },
+  "My Small World|15012686561656": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh Jelly Squish",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-jelly-squish"
+  },
+  "My Small World|15013913461112": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Teenie Needoh Cool Cats",
+   "url": "https://www.mysmallworld.co.uk/products/teenie-needoh-cool-cats"
+  },
+  "My Small World|15013913526648": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "NeeDoh Candy Swirl Nice Cube",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-candy-swirl-nice-cube"
+  },
+  "My Small World|15013913592184": {
+   "available": false,
+   "price": "14.50",
+   "shop": "My Small World",
+   "title": "Needoh Niceberg Glitter & Glow",
+   "url": "https://www.mysmallworld.co.uk/products/niceberg-glitter-glow-needoh"
+  },
+  "My Small World|15013913657720": {
+   "available": false,
+   "price": "10.00",
+   "shop": "My Small World",
+   "title": "Hot Shots Teenie Needoh Multi-Pack",
+   "url": "https://www.mysmallworld.co.uk/products/hot-shots-teenie-needoh-multi-pack"
+  },
+  "My Small World|15013913690488": {
+   "available": false,
+   "price": "10.00",
+   "shop": "My Small World",
+   "title": "Swirl Teenie Needoh Multipack",
+   "url": "https://www.mysmallworld.co.uk/products/swirl-teenie-needoh-multipack"
+  },
+  "My Small World|15013913723256": {
+   "available": false,
+   "price": "7.50",
+   "shop": "My Small World",
+   "title": "NeeDoh Baby Boos",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-baby-boos"
+  },
+  "My Small World|15013913756024": {
+   "available": false,
+   "price": "6.50",
+   "shop": "My Small World",
+   "title": "NeeDoh Glowy Ghost",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-glowy-ghost"
+  },
+  "My Small World|15013913788792": {
+   "available": false,
+   "price": "5.00",
+   "shop": "My Small World",
+   "title": "NeeDoh Jack-Glow Lantern",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-jack-glow-lantern"
+  },
+  "My Small World|15013913821560": {
+   "available": false,
+   "price": "5.00",
+   "shop": "My Small World",
+   "title": "NeeDoh Teenie Jack-Glow Lanterns",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-teenie-jack-glow-lanterns"
+  },
+  "My Small World|15013913887096": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh Nice-icle",
+   "url": "https://www.mysmallworld.co.uk/products/nice-icle-needoh"
+  },
+  "My Small World|15013913919864": {
+   "available": false,
+   "price": "8.00",
+   "shop": "My Small World",
+   "title": "Needoh Rainbow Teenie",
+   "url": "https://www.mysmallworld.co.uk/products/rainbow-teenie-needoh"
+  },
+  "My Small World|15013914018168": {
+   "available": false,
+   "price": "30.00",
+   "shop": "My Small World",
+   "title": "NeeDoh Advent Calendar",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-advent-calendar"
+  },
+  "My Small World|15013914050936": {
+   "available": false,
+   "price": "8.00",
+   "shop": "My Small World",
+   "title": "NeeDoh Polar Glow Penguins",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-polar-glow-penguins"
+  },
+  "My Small World|15013914083704": {
+   "available": false,
+   "price": "8.00",
+   "shop": "My Small World",
+   "title": "NeeDoh Squisher the Reindoh",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-squisher-the-reindoh"
+  },
+  "My Small World|15013914149240": {
+   "available": false,
+   "price": "5.50",
+   "shop": "My Small World",
+   "title": "Needoh Squeeza",
+   "url": "https://www.mysmallworld.co.uk/products/squeeza-needoh"
+  },
+  "My Small World|15013914214776": {
+   "available": false,
+   "price": "14.50",
+   "shop": "My Small World",
+   "title": "Needoh Niceberg Swirl",
+   "url": "https://www.mysmallworld.co.uk/products/niceberg-swirl-needoh"
+  },
+  "My Small World|15033078514040": {
+   "available": false,
+   "price": "6.00",
+   "shop": "My Small World",
+   "title": "Peace O Cake Needoh",
+   "url": "https://www.mysmallworld.co.uk/products/peace-o-cake-needoh"
+  },
+  "My Small World|15033079791992": {
+   "available": false,
+   "price": "6.00",
+   "shop": "My Small World",
+   "title": "Nice Cream Cone Needoh",
+   "url": "https://www.mysmallworld.co.uk/products/nice-cream-cone-needoh"
+  },
+  "My Small World|15033080742264": {
+   "available": false,
+   "price": "15.00",
+   "shop": "My Small World",
+   "title": "Super Needoh Fuzz Ball",
+   "url": "https://www.mysmallworld.co.uk/products/super-needoh-fuzz-ball"
+  },
+  "My Small World|15033088508280": {
+   "available": false,
+   "price": "9.00",
+   "shop": "My Small World",
+   "title": "Teenie Needoh Fuzz Ball",
+   "url": "https://www.mysmallworld.co.uk/products/teenie-needoh-fuzz-ball"
+  },
+  "My Small World|15033091457400": {
+   "available": false,
+   "price": "9.00",
+   "shop": "My Small World",
+   "title": "Fuzz Ball Teenie Needoh Multipack",
+   "url": "https://www.mysmallworld.co.uk/products/fuzz-ball-teenie-needoh-multipack"
+  },
+  "My Small World|7142444793917": {
+   "available": false,
+   "price": "6.50",
+   "shop": "My Small World",
+   "title": "Needoh Teenie Funky Pups",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-teenie-funky-pups"
+  },
+  "My Small World|7484437463101": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh - Dream Drop",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-dream-drop"
+  },
+  "My Small World|7484437659709": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh Gumdrops",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-gumdrops"
+  },
+  "My Small World|7484437823549": {
+   "available": false,
+   "price": "7.00",
+   "shop": "My Small World",
+   "title": "Needoh Nice Cube",
+   "url": "https://www.mysmallworld.co.uk/products/needoh-nice-cube"
+  },
+  "The Kid Collective|15225238389071": {
+   "available": false,
+   "price": "8.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Donut",
+   "url": "https://thekidcollective.co.uk/products/needoh-donut"
+  },
+  "The Kid Collective|15225238454607": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice Cube",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-cube"
+  },
+  "The Kid Collective|15225238487375": {
+   "available": false,
+   "price": "3.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Colour Changing",
+   "url": "https://thekidcollective.co.uk/products/needoh-colour-changing"
+  },
+  "The Kid Collective|15225238585679": {
+   "available": false,
+   "price": "3.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Glow in the Dark Groovy Glob",
+   "url": "https://thekidcollective.co.uk/products/needoh-glow-in-the-dark"
+  },
+  "The Kid Collective|15225238618447": {
+   "available": false,
+   "price": "3.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Teenie",
+   "url": "https://thekidcollective.co.uk/products/needoh-teenie"
+  },
+  "The Kid Collective|15225238651215": {
+   "available": false,
+   "price": "6.50",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Gumdrop",
+   "url": "https://thekidcollective.co.uk/products/needoh-gumdrop"
+  },
+  "The Kid Collective|15225238683983": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Dream Drop",
+   "url": "https://thekidcollective.co.uk/products/needoh-dream-drop"
+  },
+  "The Kid Collective|15360881262927": {
+   "available": false,
+   "price": "2.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Teenie Nice Ice Baby",
+   "url": "https://thekidcollective.co.uk/products/needoh-teenie-nice-ice-baby"
+  },
+  "The Kid Collective|15360881361231": {
+   "available": false,
+   "price": "5.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Sploot Splat",
+   "url": "https://thekidcollective.co.uk/products/needoh-sploot-splat"
+  },
+  "The Kid Collective|15360881426767": {
+   "available": false,
+   "price": "4.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Mello Mallo",
+   "url": "https://thekidcollective.co.uk/products/needoh-mello-mallo"
+  },
+  "The Kid Collective|15360881590607": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice Cube Swirl",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-cube-swirl"
+  },
+  "The Kid Collective|15360881688911": {
+   "available": false,
+   "price": "4.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Fuzz Ball Wonder Waves",
+   "url": "https://thekidcollective.co.uk/products/needoh-fuzz-ball-wonder-waves"
+  },
+  "The Kid Collective|15360881885519": {
+   "available": false,
+   "price": "12.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Niceberg",
+   "url": "https://thekidcollective.co.uk/products/needoh-niceberg-needoh"
+  },
+  "The Kid Collective|15360882016591": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice Cube Glow",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-cube-glow"
+  },
+  "The Kid Collective|15442577817935": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice Cube Glitter & Glow",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-cube-glitter-glow"
+  },
+  "The Kid Collective|15594238869839": {
+   "available": false,
+   "price": "3.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Snow Ball Crunch",
+   "url": "https://thekidcollective.co.uk/products/needoh-snow-ball-crunch"
+  },
+  "The Kid Collective|15899467383119": {
+   "available": false,
+   "price": "4.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Colour Change Cube",
+   "url": "https://thekidcollective.co.uk/products/needoh-colour-change-cube"
+  },
+  "The Kid Collective|15899483865423": {
+   "available": false,
+   "price": "8.95",
+   "shop": "The Kid Collective",
+   "title": "Needoh Fuzz Ball Teenie Multipack",
+   "url": "https://thekidcollective.co.uk/products/needoh-fuzz-ball-teenie-multipack"
+  },
+  "The Kid Collective|15899501953359": {
+   "available": false,
+   "price": "8.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Swirl Teenie Multipack",
+   "url": "https://thekidcollective.co.uk/products/needoh-swirl-teenie-multipack"
+  },
+  "The Kid Collective|15899538981199": {
+   "available": false,
+   "price": "12.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Niceberg Glitter & Glow",
+   "url": "https://thekidcollective.co.uk/products/needoh-niceberg-glitter-glow"
+  },
+  "The Kid Collective|15899563557199": {
+   "available": false,
+   "price": "8.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Hot Shots Teenie Multi-Pack",
+   "url": "https://thekidcollective.co.uk/products/needoh-hot-shots-teenie-multi-pack"
+  },
+  "The Kid Collective|15899598717263": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Jelly Squish",
+   "url": "https://thekidcollective.co.uk/products/needoh-jelly-squish"
+  },
+  "The Kid Collective|15899611693391": {
+   "available": false,
+   "price": "8.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Cool Cats Teenie Multi-Pack",
+   "url": "https://thekidcollective.co.uk/products/needoh-cool-cats-teenie-multi-pack"
+  },
+  "The Kid Collective|15899621425487": {
+   "available": false,
+   "price": "8.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice Ice Baby Teenie Multi-Pack",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-ice-baby-teenie-multi-pack"
+  },
+  "The Kid Collective|15899622441295": {
+   "available": false,
+   "price": "12.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Niceberg Swirl",
+   "url": "https://thekidcollective.co.uk/products/needoh-niceberg-swirl"
+  },
+  "The Kid Collective|15916260852047": {
+   "available": false,
+   "price": "7.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Teenie Sparkle Hearts",
+   "url": "https://thekidcollective.co.uk/products/needoh-teenie-sparkle-hearts"
+  },
+  "The Kid Collective|15916265308495": {
+   "available": false,
+   "price": "13.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Super Fuzz Ball",
+   "url": "https://thekidcollective.co.uk/products/needoh-super-fuzz-ball"
+  },
+  "The Kid Collective|15916269175119": {
+   "available": false,
+   "price": "5.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Good Vibes Only",
+   "url": "https://thekidcollective.co.uk/products/needoh-good-vibes-only"
+  },
+  "The Kid Collective|16117980922191": {
+   "available": false,
+   "price": "5.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Peace O' Cake",
+   "url": "https://thekidcollective.co.uk/products/needoh-peace-o-cake"
+  },
+  "The Kid Collective|16117985345871": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice-sicle",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-icle"
+  },
+  "The Kid Collective|16117987311951": {
+   "available": false,
+   "price": "5.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice Cream Cone",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-cream-cone"
+  }
+ }
+}
