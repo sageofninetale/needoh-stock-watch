@@ -1,0 +1,120 @@
+"""NeeDoh stock watcher.
+
+Checks three Shopify toy shops for NeeDoh products and sends a phone
+notification (via ntfy) when a product goes from sold out to in stock.
+State is kept in state.json so each product only alerts once per restock.
+"""
+import json
+import os
+import sys
+import time
+import urllib.request
+from datetime import datetime, timezone
+
+SHOPS = [
+    {"name": "The Kid Collective", "base": "https://thekidcollective.co.uk",
+     "path": "/collections/needoh/products.json", "filter": False},
+    {"name": "Bigjigs", "base": "https://www.bigjigstoys.co.uk",
+     "path": "/collections/nee-doh/products.json", "filter": False},
+    {"name": "My Small World", "base": "https://www.mysmallworld.co.uk",
+     "path": "/products.json", "filter": True},
+]
+STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
+UA = "Mozilla/5.0 (stock-watch)"
+
+
+def fetch(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def is_needoh(p):
+    text = (p.get("title", "") + " " + p.get("vendor", "")).lower()
+    return "needoh" in text.replace(" ", "").replace("-", "")
+
+
+def shop_products(shop):
+    items = {}
+    for page in range(1, 60):
+        data = fetch(f"{shop['base']}{shop['path']}?limit=250&page={page}")
+        products = data.get("products", [])
+        if not products:
+            break
+        for p in products:
+            if shop["filter"] and not is_needoh(p):
+                continue
+            variants = p.get("variants", [])
+            in_stock = [v for v in variants if v.get("available")]
+            price = (in_stock or variants or [{}])[0].get("price", "")
+            items[f"{shop['name']}|{p['id']}"] = {
+                "title": p.get("title", ""),
+                "available": bool(in_stock),
+                "price": price,
+                "url": f"{shop['base']}/products/{p.get('handle', '')}",
+                "shop": shop["name"],
+            }
+        time.sleep(0.5)
+    return items
+
+
+def notify(title, message, click=None):
+    topic = os.environ.get("NTFY_TOPIC")
+    if not topic:
+        print("NTFY_TOPIC not set, would send:", title, "|", message)
+        return
+    headers = {"Title": title, "Tags": "teddy_bear", "Priority": "high"}
+    if click:
+        headers["Click"] = click
+    email = os.environ.get("ALERT_EMAIL")
+    if email:
+        headers["Email"] = email
+    req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=message.encode("utf-8"),
+                                 headers=headers, method="POST")
+    urllib.request.urlopen(req, timeout=30).read()
+
+
+def main():
+    try:
+        with open(STATE_FILE) as f:
+            state = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        state = {}
+    previous = state.get("products", {})
+    first_run = not previous
+
+    current = {}
+    for shop in SHOPS:
+        try:
+            current.update(shop_products(shop))
+        except Exception as e:  # keep last known data for a shop that failed
+            print(f"Could not check {shop['name']}: {e}", file=sys.stderr)
+            current.update({k: v for k, v in previous.items() if v.get("shop") == shop["name"]})
+
+    restocked = [v for k, v in current.items()
+                 if v["available"] and not previous.get(k, {}).get("available")]
+
+    in_stock_now = sum(v["available"] for v in current.values())
+    print(f"Checked {len(current)} NeeDoh products, {in_stock_now} in stock, {len(restocked)} newly in stock")
+
+    if first_run:
+        notify("NeeDoh alerts are on",
+               f"Watching {len(current)} NeeDoh products across 3 shops every 15 minutes. "
+               f"{in_stock_now} in stock right now. You'll get a ping with the link when one comes back.")
+    elif restocked:
+        for item in restocked[:5]:
+            notify(f"NeeDoh back in stock at {item['shop']}",
+                   f"{item['title']} - £{item['price']}. Tap to buy.", click=item["url"])
+        if len(restocked) > 5:
+            notify("More NeeDoh back in stock",
+                   f"{len(restocked) - 5} more NeeDoh products are back in stock.",
+                   click=restocked[5]["url"])
+
+    # month stamp keeps the repo active so GitHub never pauses the schedule
+    state = {"month": datetime.now(timezone.utc).strftime("%Y-%m"), "products": current}
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=1, sort_keys=True)
+
+
+if __name__ == "__main__":
+    main()
