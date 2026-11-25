@@ -449,6 +449,13 @@
    "title": "Needoh Rainbow Teenie",
    "url": "https://www.mysmallworld.co.uk/products/rainbow-teenie-needoh"
   },
+  "My Small World|15013913952632": {
+   "available": false,
+   "price": "4.00",
+   "shop": "My Small World",
+   "title": "Snow Ball Crunch",
+   "url": "https://www.mysmallworld.co.uk/products/snow-ball-crunch"
+  },
   "My Small World|15013914018168": {
    "available": false,
    "price": "30.00",
@@ -603,12 +610,26 @@
    "title": "NeeDoh Teenie Nice Ice Baby",
    "url": "https://thekidcollective.co.uk/products/needoh-teenie-nice-ice-baby"
   },
+  "The Kid Collective|15360881361231": {
+   "available": false,
+   "price": "5.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Sploot Splat",
+   "url": "https://thekidcollective.co.uk/products/needoh-sploot-splat"
+  },
   "The Kid Collective|15360881426767": {
    "available": false,
    "price": "4.95",
    "shop": "The Kid Collective",
    "title": "NeeDoh Mello Mallo",
    "url": "https://thekidcollective.co.uk/products/needoh-mello-mallo"
+  },
+  "The Kid Collective|15360881590607": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Nice Cube Swirl",
+   "url": "https://thekidcollective.co.uk/products/needoh-nice-cube-swirl"
   },
   "The Kid Collective|15360881688911": {
    "available": false,
@@ -701,6 +722,13 @@
    "title": "NeeDoh Nice Ice Baby Teenie Multi-Pack",
    "url": "https://thekidcollective.co.uk/products/needoh-nice-ice-baby-teenie-multi-pack"
   },
+  "The Kid Collective|15899626373455": {
+   "available": false,
+   "price": "6.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Candy Swirl Nice Cube",
+   "url": "https://thekidcollective.co.uk/products/needoh-candy-swirl-nice-cube"
+  },
   "The Kid Collective|15916260852047": {
    "available": false,
    "price": "7.95",
@@ -742,6 +770,13 @@
    "shop": "The Kid Collective",
    "title": "NeeDoh Nice Cream Cone",
    "url": "https://thekidcollective.co.uk/products/needoh-nice-cream-cone"
+  },
+  "The Kid Collective|16119191732559": {
+   "available": false,
+   "price": "7.95",
+   "shop": "The Kid Collective",
+   "title": "NeeDoh Squisher The Reindoh",
+   "url": "https://thekidcollective.co.uk/products/needoh-squisher-the-reindoh"
   }
  }
 }
